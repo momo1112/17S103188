@@ -1,0 +1,101 @@
+[INFO] 2018-06-22 14:46:09,011 [main] com.infinitescript.napster.server.ApplicationBootstrap - Server is running...
+[DEBUG] 2018-06-22 14:46:57,739 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT MOMO
+[INFO] 2018-06-22 14:46:57,739 [Thread-1] com.infinitescript.napster.server.SessionGateway - New user joined  MOMO, Current Online Users: 1
+[DEBUG] 2018-06-22 14:46:57,760 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2018-06-22 14:47:25,999 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: ADD {"fileName":"test.rdf","size":395,"sharer":"MOMO","checksum":"4c7e6612e97f771b2881f851028072c9"}
+[INFO] 2018-06-22 14:47:26,078 [Thread-1] com.infinitescript.napster.server.FileServer - File shared at Socket[addr=/127.0.0.1,port=64659,localport=7777], SharedFile [FileName=test.rdf, Sharer=MOMO, Checksum=4c7e6612e97f771b2881f851028072c9, Size=395 Byte]
+[DEBUG] 2018-06-22 14:47:26,079 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2018-06-22 14:48:43,556 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT KONGKONG
+[INFO] 2018-06-22 14:48:43,557 [Thread-2] com.infinitescript.napster.server.SessionGateway - New user joined  KONGKONG, Current Online Users: 2
+[DEBUG] 2018-06-22 14:48:43,583 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2018-06-22 14:49:02,429 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: QUIT
+[INFO] 2018-06-22 14:49:02,429 [Thread-2] com.infinitescript.napster.server.SessionGateway - User leaved KONGKONG, Current Online Users: 1
+[INFO] 2018-06-22 14:49:02,430 [Thread-2] com.infinitescript.napster.server.SessionGateway - Socket has closed for Socket[addr=/127.0.0.1,port=64663,localport=7777]
+[DEBUG] 2018-06-22 14:49:08,266 [Thread-3] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT KONGKONG
+[INFO] 2018-06-22 14:49:08,267 [Thread-3] com.infinitescript.napster.server.SessionGateway - New user joined  KONGKONG, Current Online Users: 2
+[DEBUG] 2018-06-22 14:49:08,267 [Thread-3] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[ERROR] 2018-06-22 14:59:10,106 [Thread-3] com.infinitescript.napster.server.SessionGateway - catching
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at com.infinitescript.napster.server.SessionGateway.run(SessionGateway.java:38) [classes/:?]
+[INFO] 2018-06-22 14:59:10,117 [Thread-3] com.infinitescript.napster.server.SessionGateway - Socket has closed for Socket[addr=/127.0.0.1,port=64666,localport=7777]
+[ERROR] 2018-06-22 14:59:12,120 [Thread-1] com.infinitescript.napster.server.SessionGateway - catching
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at com.infinitescript.napster.server.SessionGateway.run(SessionGateway.java:38) [classes/:?]
+[INFO] 2018-06-22 14:59:12,121 [Thread-1] com.infinitescript.napster.server.SessionGateway - Socket has closed for Socket[addr=/127.0.0.1,port=64659,localport=7777]
+[INFO] 2018-06-22 15:00:21,187 [main] com.infinitescript.napster.server.ApplicationBootstrap - Server is running...
+[DEBUG] 2018-06-22 15:00:36,343 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT MOMO
+[INFO] 2018-06-22 15:00:36,344 [Thread-1] com.infinitescript.napster.server.SessionGateway - New user joined  MOMO, Current Online Users: 1
+[DEBUG] 2018-06-22 15:00:36,349 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2018-06-22 15:01:15,922 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT ZhangHuiJun
+[INFO] 2018-06-22 15:01:15,922 [Thread-2] com.infinitescript.napster.server.SessionGateway - New user joined  ZhangHuiJun, Current Online Users: 2
+[DEBUG] 2018-06-22 15:01:15,927 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2018-06-22 15:01:30,065 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: QUIT
+[INFO] 2018-06-22 15:01:30,065 [Thread-2] com.infinitescript.napster.server.SessionGateway - User leaved ZhangHuiJun, Current Online Users: 1
+[INFO] 2018-06-22 15:01:30,066 [Thread-2] com.infinitescript.napster.server.SessionGateway - Socket has closed for Socket[addr=/127.0.0.1,port=64710,localport=7777]
+[DEBUG] 2018-06-22 15:01:34,508 [Thread-3] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT ZhangHuiJun
+[INFO] 2018-06-22 15:01:34,509 [Thread-3] com.infinitescript.napster.server.SessionGateway - New user joined  ZhangHuiJun, Current Online Users: 2
+[DEBUG] 2018-06-22 15:01:34,509 [Thread-3] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[INFO] 2018-06-22 15:39:32,469 [main] com.infinitescript.napster.server.ApplicationBootstrap - Server is running...
+[DEBUG] 2018-06-22 15:39:53,719 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT MOMO
+[INFO] 2018-06-22 15:39:53,720 [Thread-1] com.infinitescript.napster.server.SessionGateway - New user joined  MOMO, Current Online Users: 1
+[DEBUG] 2018-06-22 15:39:53,725 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2018-06-22 15:40:23,890 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT ZhangHuiJun
+[INFO] 2018-06-22 15:40:23,891 [Thread-2] com.infinitescript.napster.server.SessionGateway - New user joined  ZhangHuiJun, Current Online Users: 2
+[DEBUG] 2018-06-22 15:40:23,894 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2018-06-22 15:40:39,238 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: QUIT
+[INFO] 2018-06-22 15:40:39,239 [Thread-2] com.infinitescript.napster.server.SessionGateway - User leaved ZhangHuiJun, Current Online Users: 1
+[INFO] 2018-06-22 15:40:39,240 [Thread-2] com.infinitescript.napster.server.SessionGateway - Socket has closed for Socket[addr=/127.0.0.1,port=64936,localport=7777]
+[DEBUG] 2018-06-22 15:40:43,247 [Thread-3] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT ZhangHuiJun
+[INFO] 2018-06-22 15:40:43,248 [Thread-3] com.infinitescript.napster.server.SessionGateway - New user joined  ZhangHuiJun, Current Online Users: 2
+[DEBUG] 2018-06-22 15:40:43,248 [Thread-3] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2018-06-22 15:41:10,066 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: ADD {"fileName":"koala.owl","size":8756,"sharer":"MOMO","checksum":"a77c7c774ae61404e5cc788fd12a3ba7"}
+[INFO] 2018-06-22 15:41:10,114 [Thread-1] com.infinitescript.napster.server.FileServer - File shared at Socket[addr=/127.0.0.1,port=64935,localport=7777], SharedFile [FileName=koala.owl, Sharer=MOMO, Checksum=a77c7c774ae61404e5cc788fd12a3ba7, Size=8756 Byte]
+[DEBUG] 2018-06-22 15:41:10,115 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2018-06-22 15:42:16,467 [Thread-3] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2018-06-22 15:42:38,135 [Thread-3] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2018-06-22 15:43:24,101 [Thread-3] com.infinitescript.napster.server.SessionGateway - Received new message: REQUEST a77c7c774ae61404e5cc788fd12a3ba7
+[DEBUG] 2018-06-22 15:45:52,143 [Thread-3] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[ERROR] 2018-06-22 15:50:30,611 [Thread-1] com.infinitescript.napster.server.SessionGateway - catching
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at com.infinitescript.napster.server.SessionGateway.run(SessionGateway.java:38) [classes/:?]
+[INFO] 2018-06-22 15:50:30,625 [Thread-1] com.infinitescript.napster.server.SessionGateway - Socket has closed for Socket[addr=/127.0.0.1,port=64935,localport=7777]
+[ERROR] 2018-06-22 15:50:32,578 [Thread-3] com.infinitescript.napster.server.SessionGateway - catching
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at com.infinitescript.napster.server.SessionGateway.run(SessionGateway.java:38) [classes/:?]
+[INFO] 2018-06-22 15:50:32,579 [Thread-3] com.infinitescript.napster.server.SessionGateway - Socket has closed for Socket[addr=/127.0.0.1,port=64938,localport=7777]

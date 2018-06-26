@@ -1,0 +1,29 @@
+[INFO] 2017-06-24 14:56:29,104 [main] com.infinitescript.napster.server.ApplicationBootstrap - Server is running...
+[DEBUG] 2017-06-24 14:58:10,983 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT Liu Qiuru
+[INFO] 2017-06-24 14:58:10,984 [Thread-1] com.infinitescript.napster.server.SessionGateway - New user joined  Liu Qiuru, Current Online Users: 1
+[DEBUG] 2017-06-24 14:58:10,998 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2017-06-24 15:00:13,249 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT Chris
+[INFO] 2017-06-24 15:00:13,251 [Thread-2] com.infinitescript.napster.server.SessionGateway - New user joined  Chris, Current Online Users: 2
+[DEBUG] 2017-06-24 15:00:13,252 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2017-06-24 15:01:36,677 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: QUIT
+[INFO] 2017-06-24 15:01:36,677 [Thread-2] com.infinitescript.napster.server.SessionGateway - User leaved Chris, Current Online Users: 1
+[INFO] 2017-06-24 15:01:36,679 [Thread-2] com.infinitescript.napster.server.SessionGateway - Socket has closed for Socket[addr=/127.0.0.1,port=52908,localport=7777]
+[INFO] 2017-06-24 15:02:22,720 [main] com.infinitescript.napster.server.ApplicationBootstrap - Server is running...
+[DEBUG] 2017-06-24 15:03:06,180 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT LiuQiuru
+[INFO] 2017-06-24 15:03:06,181 [Thread-1] com.infinitescript.napster.server.SessionGateway - New user joined  LiuQiuru, Current Online Users: 1
+[DEBUG] 2017-06-24 15:03:06,189 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2017-06-24 15:05:42,201 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT Olli
+[INFO] 2017-06-24 15:05:42,203 [Thread-2] com.infinitescript.napster.server.SessionGateway - New user joined  Olli, Current Online Users: 2
+[DEBUG] 2017-06-24 15:05:42,203 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2017-06-24 15:06:32,339 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: ADD {"checksum":"32e6754e60f0e0e080714e82b440e98f","fileName":"课表1.png","sharer":"LiuQiuru","size":26824}
+[INFO] 2017-06-24 15:06:32,384 [Thread-1] com.infinitescript.napster.server.FileServer - File shared at Socket[addr=/127.0.0.1,port=52913,localport=7777], SharedFile [FileName=课表1.png, Sharer=LiuQiuru, Checksum=32e6754e60f0e0e080714e82b440e98f, Size=26824 Byte]
+[DEBUG] 2017-06-24 15:06:32,384 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2017-06-24 15:07:31,414 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: ADD {"checksum":"abd22f64e2a61b978151ced840d1587e","fileName":"13-Retrieval+evaluation+with+incomplete+information.pdf","sharer":"LiuQiuru","size":172320}
+[INFO] 2017-06-24 15:07:31,415 [Thread-1] com.infinitescript.napster.server.FileServer - File shared at Socket[addr=/127.0.0.1,port=52913,localport=7777], SharedFile [FileName=13-Retrieval+evaluation+with+incomplete+information.pdf, Sharer=LiuQiuru, Checksum=abd22f64e2a61b978151ced840d1587e, Size=172320 Byte]
+[DEBUG] 2017-06-24 15:07:31,416 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2017-06-24 15:08:27,482 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: ADD {"checksum":"4a7be26cfc11980481708a4268e069eb","fileName":"QQ66.png","sharer":"Olli","size":21648}
+[INFO] 2017-06-24 15:08:27,482 [Thread-2] com.infinitescript.napster.server.FileServer - File shared at Socket[addr=/127.0.0.1,port=52918,localport=7777], SharedFile [FileName=QQ66.png, Sharer=Olli, Checksum=4a7be26cfc11980481708a4268e069eb, Size=21648 Byte]
+[DEBUG] 2017-06-24 15:08:27,483 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2017-06-24 15:08:40,604 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2017-06-24 15:08:47,883 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2017-06-24 15:19:26,219 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: DELETE {"checksum":"32e6754e60f0e0e080714e82b440e98f","fileName":"课表1.png"}
